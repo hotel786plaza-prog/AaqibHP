@@ -186,7 +186,7 @@ const handleDownloadPDF = async () => {
   generateInvoicePDF({
     hotelName: "Hotel Plaza",
     hotelAddress: "#7, 6th Main Road, Next Gubbi Veeranna Ranga Mandira, Gandhinagar, Bangalore - 560009",
-    hotelPhone: "080-2226310 , 080-22263101 , 080-22263102 , 080-22263103",   
+    hotelPhone: "080-22263101 , 080-22263102 , 080-22263103",   
     guestName: primaryGuest?.name || "Guest",
     guestPhone: primaryGuest?.phone || "-",
     roomNumber: guest.rooms?.room_number,
